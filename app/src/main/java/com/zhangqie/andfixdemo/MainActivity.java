@@ -26,8 +26,8 @@ public class MainActivity extends AppCompatActivity {
         findViewById(R.id.btn).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(MainActivity.this,"bug未修复",Toast.LENGTH_LONG).show();
-                textView.setText("bug未修复");
+                Toast.makeText(MainActivity.this,"bug已修复",Toast.LENGTH_LONG).show();
+                textView.setText("bug已修复");
             }
         });
     }

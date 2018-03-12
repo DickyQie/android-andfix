@@ -18,7 +18,7 @@ public class AndFixApplication extends Application {
 
     public String TAG = "Application";
 
-    private static final String APATCH_PATH = "";
+    private static final String APATCH_PATH = "/out.apatch";
 
     @Override
     public void onCreate() {
